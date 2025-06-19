@@ -1,0 +1,12 @@
+
+{
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enabled": false,
+  "intellicode.enabled": false
+}
