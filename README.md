@@ -1,66 +1,21 @@
-## Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
+#Using solidity to code some basic mathematical operations:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## the following methods are included: 
 
-## Documentation
+- Basic operations:
+  - Summation
+  - Factorial calculation (by both iterative and recursive method)
+  - Checking for prime
+- Getting primes below a uint x (two ways)
+- Modular inverse finder
+  - ran brute force
+  - very gas inefficient as chatgpt tells me still working on that part
+- Square root calculator
+  -will try binary search method as well
+-Taylor Series
+  - approx value for e^x when the function takes in x and a terminating point n for the summation.
+  - gave a good idea about scaling fractional values in solidity.
+  - will try for sin(x) soon as well. 
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
